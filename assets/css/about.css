@@ -1,0 +1,20 @@
+.content {
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.information {
+    max-width: none;
+}
+
+.text-c {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.text-c-x {
+    margin-bottom: 1rem;
+}

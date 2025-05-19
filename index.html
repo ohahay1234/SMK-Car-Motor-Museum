@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK Car Motor Museum</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body>
+    <header>
+        <h1>SMK Car Motor Museum</h1>
+        <p>Premium Car Gallery</p>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/pages/about.html">About</a></li>
+                <li><a href="/pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <input type="radio" id="all" name="car-filter" checked hidden>
+        <label for="all" class="filter-btn">All</label>
+        <input type="radio" id="sports" name="car-filter" hidden>
+        <label for="sports" class="filter-btn">Sports Cars</label>
+        <input type="radio" id="suvs" name="car-filter" hidden>
+        <label for="suvs" class="filter-btn">SUVs</label>
+        <input type="radio" id="sedans" name="car-filter" hidden>
+        <label for="sedans" class="filter-btn">Sedans</label>
+        <input type="radio" id="classic" name="car-filter" hidden>
+        <label for="classic" class="filter-btn">Classic</label>
+        <input type="radio" id="luxury" name="car-filter" hidden>
+        <label for="luxury" class="filter-btn">Luxury</label>
+        <div class="car-cards">
+            <div class="car-card sports">
+                <img src="/assets/images/1.jpg"
+                    alt="Ferrari 488 GTB">
+                <div class="car-name">Ferrari 488 GTB</div>
+            </div>
+            <div class="car-card sports">
+                <img src="/assets/images/2.jpg"
+                    alt="Lamborghini Aventador">
+                <div class="car-name">Lamborghini Aventador</div>
+            </div>
+            <div class="car-card sports">
+                <img src="/assets/images/3.jpg"
+                    alt="Porsche 911 GT3 RS">
+                <div class="car-name">Porsche 911 GT3 RS</div>
+            </div>
+            <div class="car-card sports">
+                <img src="/assets/images/4.jpg" alt="Nissan GT-R">
+                <div class="car-name">Nissan GT-R</div>
+            </div>
+            <div class="car-card sports">
+                <img src="/assets/images/5.png"
+                    alt="Chevrolet Corvette C8">
+                <div class="car-name">Chevrolet Corvette C8</div>
+            </div>
+            <div class="car-card suvs">
+                <img src="/assets/images/6.jpg"
+                    alt="Toyota Fortuner">
+                <div class="car-name">Toyota Fortuner</div>
+            </div>
+            <div class="car-card suvs">
+                <img src="/assets/images/7.jpg"
+                    alt="Ford Explorer">
+                <div class="car-name">Ford Explorer</div>
+            </div>
+            <div class="car-card suvs">
+                <img src="/assets/images/8.png"
+                    alt="Toyota Land Cruiser">
+                <div class="car-name">Toyota Land Cruiser</div>
+            </div>
+            <div class="car-card suvs">
+                <img src="/assets/images/9.png"
+                    alt="Kia Sorento">
+                <div class="car-name">Kia Sorento</div>
+            </div>
+            <div class="car-card suvs">
+                <img src="/assets/images/10.jpg"
+                    alt="Honda CR-V">
+                <div class="car-name">Honda CR-V</div>
+            </div>
+            <div class="car-card sedans">
+                <img src="/assets/images/11.png"
+                    alt="Honda Civic">
+                <div class="car-name">Honda Civic</div>
+            </div>
+            <div class="car-card sedans">
+                <img src="/assets/images/12.png"
+                    alt="Toyota Camry">
+                <div class="car-name">Toyota Camry</div>
+            </div>
+            <div class="car-card sedans">
+                <img src="/assets/images/13.jpg"
+                    alt="Hyundai Elantra">
+                <div class="car-name">Hyundai Elantra</div>
+            </div>
+            <div class="car-card sedans">
+                <img src="/assets/images/14.jpg"
+                    alt="Mazda 3">
+                <div class="car-name">Mazda 3</div>
+            </div>
+            <div class="car-card sedans">
+                <img src="/assets/images/15.jpg"
+                    alt="Kia K5">
+                <div class="car-name">Kia K5</div>
+            </div>
+            <div class="car-card classic">
+                <img src="/assets/images/16.jpg"
+                    alt="1967 Ford Mustang">
+                <div class="car-name">1967 Ford Mustang</div>
+            </div>
+            <div class="car-card classic">
+                <img src="/assets/images/17.jpg"
+                    alt="1957 Chevrolet Bel Air">
+                <div class="car-name">1957 Chevrolet Bel Air</div>
+            </div>
+            <div class="car-card classic">
+                <img src="/assets/images/18.jpg"
+                    alt="Volkswagen Beetle 1972">
+                <div class="car-name">Volkswagen Beetle 1972</div>
+            </div>
+            <div class="car-card classic">
+                <img src="/assets/images/19.jpg"
+                    alt="Jaguar E-Type 1963">
+                <div class="car-name">Jaguar E-Type 1963</div>
+            </div>
+            <div class="car-card classic">
+                <img src="/assets/images/20.jpg"
+                    alt="1969 Dodge Charger">
+                <div class="car-name">1969 Dodge Charger</div>
+            </div>
+            <div class="car-card luxury">
+                <img src="/assets/images/21.jpg"
+                    alt="Rolls-Royce Phantom">
+                <div class="car-name">Rolls-Royce Phantom</div>
+            </div>
+            <div class="car-card luxury">
+                <img src="/assets/images/22.jpg"
+                    alt="Mercedes-Benz S-Class">
+                <div class="car-name">Mercedes-Benz S-Class</div>
+            </div>
+            <div class="car-card luxury">
+                <img src="/assets/images/23.jpg"
+                    alt="BMW 7 Series">
+                <div class="car-name">BMW 7 Series</div>
+            </div>
+            <div class="car-card luxury">
+                <img src="/assets/images/24.jpg"
+                    alt="Bentley Continental GT">
+                <div class="car-name">Bentley Continental GT</div>
+            </div>
+            <div class="car-card luxury">
+                <img src="/assets/images/25.jpg"
+                    alt="Audi A8">
+                <div class="car-name">Audi A8</div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 SMK Car Motor Museum. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
